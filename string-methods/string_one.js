@@ -1,0 +1,12 @@
+console.log("somestringtext"[3]);
+console.log("éléphant"[1]);
+console.log("animal".length);
+console.log("animal".length - 1);
+console.log("yesJOHN".toUpperCase());
+console.log("hey friends call me"[2] === "y");
+console.log("animal dans la forêt".lenght > 20);
+console.log("bonjour ranger".indexOf("r"));
+console.log("éléphant".indexOf("é"));
+console.log("chat"[2]);
+console.log("chat".indexOf("h"));
+console.log("cat".indexOf("c"));
