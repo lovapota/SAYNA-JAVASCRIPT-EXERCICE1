@@ -1,34 +1,26 @@
+//test personnelle
+//Un seul variable
+const lava = [3, 1, 6, 9, 11]
+let impair = 0
+for(let i = 0; i < lava.length; i ++){
+    if(lava[i] % 2 !== 0){
+        impair = impair + 1
+    }
+}
+console.log(impair)    
 
+//Exercice
 function arrayOdds(table){
-    let lova = 0;
-    if(table % 2 !== 0){
-        let table = table[i]
+    let noPair = 0
+    for(let i = 0; i < table.length; i ++){
+        if(table[i] % 2 !== 0){
+            noPair = noPair + 1
+        }
     }
-    return lova
+    return noPair
 }
 
-
-console.log(arrayOdds([4, 7, 2, 5, 9])) ; // 3
-
-console.log(arrayOdds([11, 31, 58, 99, 21, 60])) ; // 4
-
-console.log(arrayOdds([100, 40, 4])) ; // 0
-
-//Devoir Sahaza
-function arrayOdds(myArray){
-    let nombreImpair = 0
-    console.log(myArray.length);
-
-    for (let i = 0; i < myArray.length; i++) {
-            if(myArray[i] % 2 !== 0){
-                    nombreImpair = nombreImpair + 1
-            }
-    }
-    console.log(nombreImpair);
-    return nombreImpair
-}
-
-console.log(arrayOdds([4,7,2,5,9]));
+console.log(arrayOdds([4,7,2,5,9]));//3
 
 console.log(arrayOdds([11,31,58,99,21,60])) ; // 4
 
