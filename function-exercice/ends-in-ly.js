@@ -1,4 +1,4 @@
-let endsInLy = function(str){
+function endsInLy(str){
     result = str.endsWith("ly")
     return result
 }

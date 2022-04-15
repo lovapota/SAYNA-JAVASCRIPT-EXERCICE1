@@ -10,6 +10,8 @@ reverse = dataArray.reverse()
             wordSearch = dataArray[i];
         }
     }
+
+
 console.log(wordSearch);
 
 //fonction
@@ -26,6 +28,12 @@ function longestWord(string) {
     }
     return searchWord;
 }
+
+//function forEachSum(table){
+//    table.reduce((a, b) => a + b, 0);
+// }
+
+// tables.forEach(element => forEachSum(element)) 
 console.log(longestWord("lva am pretty hungry"));
 console.log(longestWord("nous devrions penser en dehors de la boîte")) ; // "à l'extérieur".
 console.log(longestWord("down the rabbit hole")) ; // "rabbit" (lapin)

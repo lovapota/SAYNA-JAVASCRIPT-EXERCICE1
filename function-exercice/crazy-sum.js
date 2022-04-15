@@ -4,4 +4,4 @@ let crazySum = function (a, b){
     }
     return (lova)
 }
-console.log(crazySum(4,4))
+console.log(crazySum(2,3))
