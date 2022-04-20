@@ -14,7 +14,7 @@ function commonElements(table1, table2){
     let resultComEle = [];
     for(let j = 0; j < table1.length || j < table2.length; j ++){
         if(table1.includes(table2[j])){
-            resultComEle.push(table1[j])
+            resultComEle.push(table2[j])
         }
     }
     return resultComEle

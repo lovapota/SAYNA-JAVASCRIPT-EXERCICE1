@@ -1,0 +1,16 @@
+let result = [];// Creer un variable pour mettre les nombres
+let valiny = [];// Creer un variable pour mettre le resultat qui est une suite de nombre et de chaine de caractere
+for(let i = 1; i <= 100; i ++){//un boucle pour avoir tout les nombres 1 a 100
+    let lova = result.push(i);// Mettre les valeurs dans un tableau
+    if(i % 3 === 0 && i % 5 === 0){//condition pour avoir les nombres divisible par 3 et 5
+         lova = "FizzBuzz";
+    }
+    else if(i % 5 === 0){//condition pour avoir les nombres divisible par 5
+        lova = "Buzz"
+    }
+    else if(i % 3 === 0){//condition pour avoir les nombres divisible par 3
+        lova = "Fizz"
+    }
+    valiny.push(lova)//ajouter les valeurs modifier dans le reusltat final
+}
+console.log(valiny)//imprimer le resultat final

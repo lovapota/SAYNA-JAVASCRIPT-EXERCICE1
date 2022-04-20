@@ -1,0 +1,17 @@
+const firstPara = document.getElementsByTagName('p');
+firstPara[0].style.color = 'red';
+firstPara[1].style.color = 'blue';
+const titre = document.getElementsByTagName('h1');
+titre[0].style.fontSize = "50px";
+const para = document.getElementById("lova");
+para.style.fontSize = "45px";
+const adala = document.getElementById('feno');
+adala.style.fontSize = "100px";
+const voakazo = document.getElementsByClassName("fruits");
+voakazo[2].style.backgroundColor = "yellow";
+const ul = document.getElementsByClassName('bg-color');
+ul[0].style.backgroundColor = "yellow";
+const list = document.querySelector('ul');
+list.style.backgroundColor = "red";
+const listes = document.querySelectorAll('li');
+listes[2].style.color = 'green';
