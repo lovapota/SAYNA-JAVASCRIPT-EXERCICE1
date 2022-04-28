@@ -13,5 +13,5 @@ const ul = document.getElementsByClassName('bg-color');
 ul[0].style.backgroundColor = "yellow";
 const list = document.querySelector('ul');
 list.style.backgroundColor = "red";
-const listes = document.querySelectorAll('li');
-listes[2].style.color = 'green';
+const listes = document.querySelectorAll('.fruits');
+listes[0].style.color = 'green';

@@ -3,8 +3,8 @@ const tab1 = ["a", "d", "c"];
 const tab2 = ["c", "a", "b", "d"];
 let result = [];
 for(let i = 0; i < tab1.length || i < tab2.length; i ++){
-       if(tab1.includes(tab2[i])){
-           result.push(tab2[i])
+       if(tab2.includes(tab1[i])){
+           result.push(tab1[i])
        }
 }
 console.log(result)
